@@ -255,7 +255,7 @@ static-content/
 config.yml
 wireframe
 wireframe-darwin
-
+!internal/wireframe
 # Ignoring pkger buffer, as it should be regenerated on every build
 pkged.go
 
