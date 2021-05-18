@@ -1,5 +1,5 @@
-@w-fra
-@probes/wireframe/wireframe
+@w-wel
+@probes/wireframe/welcome
 Feature: Protect image container registries
     This description is visible in the output,
     but serves no functional purpose
@@ -10,12 +10,12 @@ Feature: Protect image container registries
     Background:
         Given the config states that this test should run
 
-    @k-cra-003
+    @w-wel-001
     Scenario: Ensure only family members are allowed inside
-        Then "<VISITOR>" is "<RESPONSE>" when they come to the door
+        Then "<ARRIVAL>" is "<RESPONSE>" when they come to the door
 
     Examples:
-        | VISITOR        | RESPONSE |
+        | ARRIVAL        | RESPONSE |
         | mom            | welcomed |
         | dad            | welcomed |
         | sister         | welcomed |
