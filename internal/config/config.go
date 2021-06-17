@@ -25,6 +25,7 @@ func (ctx *varOptions) Init() (err error) {
 	}
 	sdkConfig.GlobalConfig.VarsFile = ctx.VarsFile
 	sdkConfig.GlobalConfig.Init()
+	sdkConfig.GlobalConfig.PrepareOutputDirectory("audit", "cucumber")
 
 	ctx.ServicePacks.Wireframe.setEnvAndDefaults()
 

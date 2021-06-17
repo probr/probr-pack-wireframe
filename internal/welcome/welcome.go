@@ -1,5 +1,5 @@
-// Package wireframe provides the implementation required to execute the BDD tests described in container_registry_access.feature file
-package wireframe
+// Package welcome provides the implementation required to execute the BDD tests described in container_registry_access.feature file
+package welcome
 
 import (
 	"github.com/cucumber/godog"
